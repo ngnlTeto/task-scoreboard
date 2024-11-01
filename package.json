@@ -22,12 +22,14 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"@types/eslint": "^9.6.0",
 		"autoprefixer": "^10.4.20",
+		"bits-ui": "1.0.0-next.35",
 		"clsx": "^2.1.1",
 		"drizzle-kit": "^0.22.0",
 		"eslint": "^9.7.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
+		"lucide-svelte": "^0.454.0",
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",
 		"prettier-plugin-tailwindcss": "^0.6.5",
@@ -43,6 +45,7 @@
 	},
 	"dependencies": {
 		"drizzle-orm": "^0.33.0",
+		"mode-watcher": "^0.4.1",
 		"postgres": "^3.4.4"
 	},
 	"packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"

@@ -1,3 +1,4 @@
+import type { InferSelectModel } from 'drizzle-orm';
 import { boolean, pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
 
 export const user = pgTable('user', {
@@ -6,3 +7,5 @@ export const user = pgTable('user', {
 	active: boolean('active'),
 	creationTimestamp: timestamp('creationTimestamp').defaultNow(),
 });
+
+export type User = InferSelectModel<typeof user>;
