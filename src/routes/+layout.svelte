@@ -3,11 +3,13 @@
 	import LightSwitch from '$lib/components/light-switch.svelte';
 	import { Separator } from '$lib/components/ui/separator';
 	import * as Sidebar from '$lib/components/ui/sidebar';
+	import { ModeWatcher } from 'mode-watcher';
 	import '../app.css';
 
 	let { children } = $props();
 </script>
 
+<ModeWatcher />
 <Sidebar.Provider>
 	<AppSidebar />
 	<Sidebar.Inset>
